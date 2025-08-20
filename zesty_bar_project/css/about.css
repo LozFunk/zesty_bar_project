@@ -1,0 +1,30 @@
+.about-banner{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/nick-rickert-TUZva3dfRv4-unsplash.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 1px 1px 25px black;
+}
+
+
+.sect-1{
+    margin-bottom: 3em;
+}
+
+@media screen and (max-width:37.5em){
+.buttons{
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.buttons a{
+    margin: 1em;
+}
+}

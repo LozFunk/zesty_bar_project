@@ -1,0 +1,127 @@
+.contact h1{
+    background-image: url(../img/woman-sitting-table-with-cocktail-burning-candle-side-view.jpg);
+    background-position:10% 60%;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    /* background-image: url(../img/vertical-shot-closeup-bar-green-chairs-counter-closeup-selective-focus-bar-view-blur-focus-bar-decoration-idea-photo-interior.jpg); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:0 2em;
+    margin-bottom: 6em;
+    gap: 5em;
+}
+
+input,textarea{
+    margin: 1em 0;
+    font-family: var(--page-font);
+    font-size: 1em;
+    border: 2px solid var(--color-2);
+    padding:0.7em 0.5em;
+}
+
+label{
+    color: whitesmoke;
+    font-family: var(--page-font);
+}
+select{
+    font-family: var(--page-font);
+    font-size: inherit;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    background: var(--color-3);
+    background-color: rgba(0,0,0,0.8);
+    padding: 2em;
+    border-radius:10px 10px;
+    margin: 2em 1em;
+    width: 420px;
+}
+
+
+.submit-btn{
+    background: var(--color-5);
+    border-radius: 10px 10px;
+}
+
+.submit-btn:hover{
+    background: orange;
+    color: var(--color-2);
+}
+
+main section{
+    margin-top: 1em;
+}
+
+main section h3{
+    text-align: center;
+}
+
+.success{
+    color: whitesmoke;
+    background: rgb(56, 173, 66);
+    padding: 1rem;
+    align-self: center;
+    border-radius: 10px 10px;
+}
+
+.error{
+    color: whitesmoke;
+    background: rgb(190, 60, 60);
+    padding: 1rem;
+    align-self: center;
+    border-radius: 10px 10px;
+}
+
+@media screen and (max-width:55em){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section{
+        margin: 0;
+        padding: 2em;
+    }
+
+    form{
+        width: 50%;
+        min-width: 320px;
+    }
+}
+
+iframe{
+    display: block;
+}
+
+a{
+    color: var(--color-2);
+    text-decoration: none;
+}
+
+.contact-banner{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/woman-sitting-table-with-cocktail-burning-candle-side-view.png);
+    background-size: 100%;
+    background-repeat: 10% 60%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 1px 1px 25px black;
+}
+
+p{
+    text-align: center;
+}
+
+section div{
+    text-align: center;
+}

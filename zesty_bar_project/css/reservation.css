@@ -1,0 +1,43 @@
+.reservation-banner{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/sebastian-schuppik-H7xTpvBjJS4-unsplash.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 1px 1px 25px black;
+}
+
+.column{
+    display: inline-block;
+    text-align: center;
+    justify-items: center;
+}
+
+
+.reservation-input{
+    width: 100%;
+}
+
+.reservation-form{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.res-container{
+    width: 100%;
+    display: flex;
+    
+}
+
+.date{
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}

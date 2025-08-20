@@ -1,0 +1,34 @@
+
+.hero{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/pexels-busra-yurt-2148943872-31553344.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 1px 1px 25px black;
+}
+
+
+h1 span{
+    font-size: 1em;
+    font-weight:normal;
+    text-transform: capitalize;
+    letter-spacing: 0.03em;
+    
+}
+
+header{
+    margin-top: 70px;
+}
+
+.impressum{
+ background-image: none;
+ color: var(--color-2);
+ height: 100px;
+ text-shadow: none;
+}
