@@ -1,4 +1,4 @@
-# Zesty Cocktail Bar Project
+# Zesty Cocktail Bar
 
 ## Overview
 Zesty Cocktail Bar is a PHP-based web application Project for a cocktail bar. It features a public website and an admin dashboard for managing reservations, menu items, and contact messages.
