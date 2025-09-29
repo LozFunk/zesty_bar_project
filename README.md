@@ -1,7 +1,7 @@
 # Zesty Cocktail Bar Project
 
 ## Overview
-Zesty Cocktail Bar is a PHP-based web application for a cocktail bar. It features a public website and an admin dashboard for managing reservations, menu items, and contact messages.
+Zesty Cocktail Bar is a PHP-based web application Project for a cocktail bar. It features a public website and an admin dashboard for managing reservations, menu items, and contact messages.
 
 ## Features
 - Public pages: Home, About, Menu, Contact, Reservation, Impressum
@@ -40,7 +40,7 @@ Import `zesty_bar_project.sql` into your MySQL server. Main tables:
 2. Import `zesty_bar_project.sql` into your MySQL database.
 3. Update `config/db.php` with your database credentials.
 4. Access the site via your local server (e.g., `http://localhost/php/zesty_bar_project/`).
-5. Admin dashboard is at `/admin/login.php`.
+5. Admin dashboard is at `/admin/login.php`. (username: admin, password: admin)
 
 ## License
 Font licenses are included in the `fonts/` directory.
