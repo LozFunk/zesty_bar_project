@@ -11,40 +11,21 @@ Zesty Cocktail Bar is a PHP-based web application for a cocktail bar. It feature
 
 ## Project Structure
 
-```
-index.php                # Main entry point
-zesty_bar_project.sql    # Database schema and sample data
-readme.txt               # Legacy readme file
-
-admin/                   # Admin dashboard pages
-  ├── login.php
-  ├── logout.php
-  ├── dashboard.php
-  ├── admin_menu.php
-  ├── admin_reservations.php
-  └── admin_contacts.php
-
-config/
-  └── db.php             # Database connection
-
-css/                     # Stylesheets
-
-fonts/                   # Font files and licenses
-
-images/                  # Images and logos
-
-inc/
-  ├── header.php
-  ├── footer.php
-  └── functions.php      # Shared PHP functions
-
-pages/                   # Public-facing pages
-  ├── home.php
-  ├── about.php
-  ├── menu.php
-  ├── contact.php
-  ├── reservation.php
-  └── impressum.php
+- `index.php` — Main entry point, handles routing for public pages.
+- `inc/` — Shared PHP includes (`header.php`, `footer.php`, `functions.php`).
+- `config/db.php` — Database connection setup.
+- `css/` — Stylesheets for different pages and components.
+- `fonts/` — Font files and licenses.
+- `images/` — Images used throughout the site.
+- `pages/` — Public-facing pages (`home.php`, `about.php`, `menu.php`, `contact.php`, `reservation.php`, `impressum.php`).
+- `admin/` — Admin dashboard and management pages:
+  - `login.php` — Admin login.
+  - `logout.php` — Admin logout.
+  - `dashboard.php` — Admin navigation.
+  - `admin_menu.php` — Manage menu items.
+  - `admin_reservations.php` — View reservations.
+  - `admin_contacts.php` — View contact messages.
+- `zesty_bar_project.sql` — SQL dump for database schema and sample data.
 ```
 
 ## Database
