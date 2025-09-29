@@ -26,7 +26,6 @@ Zesty Cocktail Bar is a PHP-based web application for a cocktail bar. It feature
   - `admin_reservations.php` — View reservations.
   - `admin_contacts.php` — View contact messages.
 - `zesty_bar_project.sql` — SQL dump for database schema and sample data.
-```
 
 ## Database
 Import `zesty_bar_project.sql` into your MySQL server. Main tables:
